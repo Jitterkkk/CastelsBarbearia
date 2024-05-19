@@ -24,7 +24,7 @@ LeftFrame.pack(side=LEFT)
 RightFrame = Frame(Janela, width=395, height=300, bg="MIDNIGHTBLUE", relief="raise")
 RightFrame.pack(side=RIGHT)
 
-LogoLabel = Label(LeftFrame, image=logo, bg="MIDNIGHTCLUB")
+LogoLabel = Label(LeftFrame, image=logo, bg="MIDNIGHTBLUE")
 LogoLabel.place(x=50, y=100)
 
 
