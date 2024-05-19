@@ -13,7 +13,8 @@ Janela.configure(background="white")
 Janela.resizable(width=False, height=False)
 
 #============== Carregando Imagens =============
-logo = PhotoImage()
+logo = PhotoImage("icons/castelo.png")
+
 
 
 #============== Widgests ===============
@@ -23,9 +24,8 @@ LeftFrame.pack(side=LEFT)
 RightFrame = Frame(Janela, width=395, height=300, bg="MIDNIGHTBLUE", relief="raise")
 RightFrame.pack(side=RIGHT)
 
-
+LogoLabel = Label(LeftFrame, image=logo, bg="MIDNIGHTCLUB")
+LogoLabel.place(x=50, y=100)
 
 
 Janela.mainloop()
-
-
